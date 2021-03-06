@@ -6,6 +6,7 @@ Crawly.Engine.start_spider(BlogSpider)
 
 ## Dependencies
 {:crawly, "~> 0.10.0"}
+
 {:floki, "~> 0.26.0"}
 
 
