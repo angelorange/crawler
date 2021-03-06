@@ -1,21 +1,14 @@
 # Crawler
+## how to execute the spider
+iex -S mix
+Crawly.Engine.start_spider(BlogSpider)
 
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `crawler` to your list of dependencies in `mix.exs`:
-
-```elixir
+## Dependencies
 def deps do
   [
-    {:crawler, "~> 0.1.0"}
+    {:crawler, "~> 0.1.0"},
+    {:floki, "~> 0.26.0"}
   ]
 end
-```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/crawler](https://hexdocs.pm/crawler).
-
+## Made with a tutorial called Crawling websites with elixir and crawly (y)
